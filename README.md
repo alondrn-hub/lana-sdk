@@ -1,11 +1,25 @@
-<div align="center">
+# Lana SDK — Enterprise AI Engineering Kit
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Lana SDK is a cross-platform AI engineering kit containing a multi-agent engine, multi-event system, plugin loader, runtime, CLI, API layer, and starter templates — designed for enterprise strength but free and simple for developers.
 
-  <h1>Built with AI Studio</h2>
+## Quick Start
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+```bash
+# Clone and install
+git clone https://github.com/lana-sdk/lana-sdk.git
+cd lana-sdk
+npm install
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+# Run CLI
+npx lana --help
 
-</div>
+# Start Local Runtime
+npm run dev
+```
+
+## Architecture Overview
+- **Core**: Multi-agent engine, event bus, state manager, task queue, memory, runtime sandbox.
+- **Plugins**: Dynamic plugin loader, registry, hooks.
+- **API**: REST endpoints & WebSocket event streams.
+- **CLI**: Developer CLI tool for scaffolding and deploying.
+- **Platforms**: Node.js, Python bindings, Web browser runtime.

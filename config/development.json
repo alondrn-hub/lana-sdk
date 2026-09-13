@@ -1,0 +1,10 @@
+{
+  "environment": "development",
+  "runtime": {
+    "mode": "local",
+    "debugLogging": true
+  },
+  "ai": {
+    "temperature": 0.7
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "level": "INFO",
+  "format": "json",
+  "destination": "stdout",
+  "includeTimestamp": true,
+  "colorize": true
+}

@@ -1,0 +1,21 @@
+{
+  "sdkName": "Lana SDK",
+  "version": "1.0.0-enterprise",
+  "environment": "default",
+  "runtime": {
+    "mode": "local",
+    "port": 3000,
+    "wsPort": 3001,
+    "maxQueueSize": 1000,
+    "timeoutMs": 30000
+  },
+  "ai": {
+    "defaultModel": "gemini-2.5-flash",
+    "temperature": 0.2,
+    "maxTokens": 4096
+  },
+  "memory": {
+    "type": "vector+short",
+    "retentionDays": 30
+  }
+}

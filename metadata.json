@@ -1,0 +1,6 @@
+{
+  "name": "Lana SDK Studio",
+  "description": "Cross-platform AI engineering kit & developer workspace featuring multi-agent engine, multi-event bus, plugin loader, runtime, CLI, and API layer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,10 @@
+{
+  "environment": "production",
+  "runtime": {
+    "mode": "cloud",
+    "debugLogging": false
+  },
+  "ai": {
+    "temperature": 0.1
+  }
+}
